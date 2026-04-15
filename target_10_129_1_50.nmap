@@ -1,0 +1,15 @@
+# Nmap 7.80 scan initiated Wed Apr 15 16:29:27 2026 as: nmap -p- -Pn --open -T4 --min-rate 5000 -oA target_10_129_1_50 10.129.1.50
+Nmap scan report for 10.129.1.50
+Host is up (0.072s latency).
+Not shown: 65511 closed ports, 17 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+110/tcp   open  pop3
+139/tcp   open  netbios-ssn
+143/tcp   open  imap
+445/tcp   open  microsoft-ds
+31337/tcp open  Elite
+
+# Nmap done at Wed Apr 15 16:29:41 2026 -- 1 IP address (1 host up) scanned in 13.40 seconds

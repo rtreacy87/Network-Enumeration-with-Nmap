@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Wed Apr 15 16:29:27 2026 as: nmap -p- -Pn --open -T4 --min-rate 5000 -oA target_10_129_1_50 10.129.1.50
+Host: 10.129.1.50 ()	Status: Up
+Host: 10.129.1.50 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 110/open/tcp//pop3///, 139/open/tcp//netbios-ssn///, 143/open/tcp//imap///, 445/open/tcp//microsoft-ds///, 31337/open/tcp//Elite///
+# Nmap done at Wed Apr 15 16:29:41 2026 -- 1 IP address (1 host up) scanned in 13.40 seconds
